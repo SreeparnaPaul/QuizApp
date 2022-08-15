@@ -33,6 +33,6 @@ public class UserController {
 	@GetMapping("/viewScoreById/{id}")
 	public ResponseData viewScoreById(@PathVariable Long id) {
 		return userService.viewScoreById(id);
-	}
+	} 
 
 }
