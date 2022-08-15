@@ -18,7 +18,7 @@ public class UserController {
 	
 	
 	@Autowired
-	private UserService userService;
+	private UserService userService; 
 	
 	@PostMapping("/createUser")
 	public ResponseData createUser(@RequestBody UserDto userDto ) {
